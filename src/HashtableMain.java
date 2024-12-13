@@ -20,6 +20,8 @@ public class HashtableMain {
 	public static void main(String[] args) {
 		String sentence1 = "To be or not to be";
         System.out.println("Sentence 1 Unique Words: " + wordFrequency(sentence1));
+        String paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+        System.out.println("\nParagraph Unique Words: " + wordFrequency(paragraph));
 	}
 
 }
